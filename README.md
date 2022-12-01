@@ -1,6 +1,8 @@
 
 > Åpne denne siden på [https://profkristoffer.github.io/mikroprat/](https://profkristoffer.github.io/mikroprat/)
 
+[Start](/mikroprat/tutorial)
+
 ## Bruk som utvidelse
 
 Dette kodeområdet kan bli lagt til som en **utvidelse** i MakeCode.
