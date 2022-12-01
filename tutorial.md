@@ -16,11 +16,21 @@ Dette vil sende en tekstmelding til enhver micro:bit i nærheten som er på samm
 
 ```blocks
 input.onButtonPressed(Button.A, function(){
-radio.sendText(:-))
+radio.sendString(":-)")
 })
 ```
 
+## Steg 3
+Legg til en ``||radio:når radio mottar recivedString||``-blokk. Her skal vi legge til kode som kjøres hver gang vi mottar en tekstmelding.
 
+```blocks
+radio.onReceivedString(function (receivedString) {
+	
+})
+```
+
+## Steg 4
+Legg til en ``||basic:vis tekst||``-blokk for å vise frem meldinga på skjermen. Dra ``||radio:recivedString||`` ned fra ``||radio:når radio mottar recivedString||`` og dra den inn i ``||basic:vis tekst||``.
 
 
 
