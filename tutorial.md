@@ -1,4 +1,4 @@
-# Mikroprat
+## Mikroprat
 Vi skal nå lære å bruke radioen til en micro:bit til å sende tekstmeldinger til hverandre! 
 
 
