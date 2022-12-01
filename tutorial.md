@@ -52,5 +52,11 @@ radio.onReceivedString(function (receivedString) {
 })
 ```
 
+## Steg 6
+Nå kan du laste ned programmet på flere micro:bit. Trykk på **A**-knappen og se hvis de andre mottar meldingen din.  
+
+
+
+
 
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
