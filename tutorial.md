@@ -32,8 +32,25 @@ radio.onReceivedString(function (receivedString) {
 ## Steg 4
 Legg til en ``||basic:vis tekst||``-blokk for å vise frem meldinga på skjermen. Dra ``||radio:recivedString||`` ned fra ``||radio:når radio mottar recivedString||`` og dra den inn i ``||basic:vis tekst||``.
 
+```blocks
+radio.onReceivedString(function (receivedString) {
+	basic.showString(recivedString)
+})
+```
 
+## Steg 5
+Trykk på **A**-knappen på simulatoren til venstre. Da vil du se at en annen micro:bit dukker opp (hvis skjermen din er for liten kan det hende at simulatoren vil velge å ikke vise den). 
 
+Trykk på **A**-knappen igjen. Da vil du se at meldingen din dukker opp på den andre skjermen. 
+
+```blocks
+input.onButtonPressed(Button.A, function(){
+radio.sendString(":-)")
+})
+radio.onReceivedString(function (receivedString) {
+	basic.showString(recivedString)
+})
+```
 
 
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
