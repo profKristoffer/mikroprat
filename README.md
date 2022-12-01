@@ -1,7 +1,9 @@
 
 > Åpne denne siden på [https://profkristoffer.github.io/mikroprat/](https://profkristoffer.github.io/mikroprat/)
 
-[Start](/mikroprat/tutorial)
+* [Start](/mikroprat/tutorial)
+* [Kjør tutorial](https://makecode.microbit.org/#tutorial:github:profkristoffer/mikroprat/tutorial)
+
 
 ## Bruk som utvidelse
 
